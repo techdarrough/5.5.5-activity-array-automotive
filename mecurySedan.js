@@ -1,4 +1,4 @@
-import Vehicle from "./vehicleBaseClass.js"
+import Vehicle from "./vehicle.js";
 
 class Car extends Vehicle {
     constructor(make, model, year, colo, mileage) {
@@ -6,7 +6,7 @@ class Car extends Vehicle {
         this.maxPassengers = 5;
         this.passenger = 0;
         this.numberOfWheels = 4;
-        this.fuel = 10:
+        this.fuel = 10;
         this.scheduledService = false;
     }
 
