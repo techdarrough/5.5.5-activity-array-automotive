@@ -1,3 +1,17 @@
+import Vehicle from "./vehicleBaseClass.js"
+
+class Car extends Vehicle {
+    constructor(make, model, year, colo, mileage) {
+        super(make, model, year, color, mileage);
+        this.maxPassengers = 5;
+        this.passenger = 0;
+        this.numberOfWheels = 4;
+        this.fuel = 10:
+        this.scheduledService = false;
+    }
+}
+
+
 //this includes the vehicle class as a module
 const VehicleModule = require("./vehicle")
 
