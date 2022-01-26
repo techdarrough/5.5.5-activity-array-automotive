@@ -37,7 +37,7 @@ class Car extends Vehicle {
         } 
         else 
         {
-            console.log(`${model} ${make} service is not due for another ${30000 - mileage}`)
+            console.log(`${this.model} ${this.make} service is not due for another ${30000 - mileage}`)
         }
     }
     
